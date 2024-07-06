@@ -17,10 +17,10 @@ public class ParametersExample {
     @Parameters({"browser", "url"})
     void setUp(String browser, String app) {
         if (browser.equalsIgnoreCase("chrome")) {
-            System.setProperty("webdriver.chrome.driver", "C:/Users/ACER/Downloads/Compressed/chromedriver-win64/chromedriver-win64/chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", "D:/Needed Libraries and Others/TestNG/chromedriver-win64/chromedriver-win64/chromedriver.exe");
             driver = new ChromeDriver();
         } else if (browser.equalsIgnoreCase("firefox")) {
-            System.setProperty("webdriver.gecko.driver", "C:/Users/ACER/Downloads/Compressed/geckodriver-v0.33.0-win64/geckodriver.exe");
+            System.setProperty("webdriver.gecko.driver", "D:/Needed Libraries and Others/TestNG/geckodriver-v0.33.0-win64/geckodriver.exe");
             driver = new FirefoxDriver();
         }
         driver.get(app);

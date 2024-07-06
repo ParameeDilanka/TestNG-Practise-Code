@@ -14,7 +14,7 @@ public class ParalelTest1 {
 
     @Test
     void logoTest() throws InterruptedException {
-        System.setProperty("webdriver.chrome.driver","C:/Users/ACER/Downloads/Compressed/chromedriver-win64/chromedriver-win64/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","D:/Needed Libraries and Others/TestNG/chromedriver-win64/chromedriver-win64/chromedriver.exe");
         driver = new ChromeDriver();
         driver.get("https://www.orangehrm.com/");
         WebElement logo=driver.findElement(By.xpath("/html/body/nav/div/a/img"));
@@ -27,7 +27,7 @@ public class ParalelTest1 {
 
     @Test
     void homePageTitle() throws InterruptedException {
-        System.setProperty("webdriver.chrome.driver","C:/Users/ACER/Downloads/Compressed/chromedriver-win64/chromedriver-win64/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","D:/Needed Libraries and Others/TestNG/chromedriver-win64/chromedriver-win64/chromedriver.exe");
         driver = new ChromeDriver();
         driver.get("https://www.orangehrm.com/");
         String title = driver.getTitle();

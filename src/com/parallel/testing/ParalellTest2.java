@@ -14,7 +14,7 @@ public class ParalellTest2 {
 
         @Test
         void loginTest() throws InterruptedException {
-            System.setProperty("webdriver.chrome.driver","C:/Users/ACER/Downloads/Compressed/chromedriver-win64/chromedriver-win64/chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver","D:/Needed Libraries and Others/TestNG/chromedriver-win64/chromedriver-win64/chromedriver.exe");
             driver = new ChromeDriver();
             driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login/");
             driver.findElement(By.id("username")).sendKeys("Admin");

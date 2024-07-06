@@ -12,7 +12,7 @@ public class AssertionsExample {
     WebDriver driver;
     @BeforeClass
     void setUp(){
-        System.setProperty("webdriver.chrome.driver","C:/Users/ACER/Downloads/Compressed/chromedriver-win64/chromedriver-win64/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","D:/Needed Libraries and Others/TestNG/chromedriver-win64/chromedriver-win64/chromedriver.exe");
    driver = new ChromeDriver();
    driver.get("https://www.orangehrm.com/");
     }
